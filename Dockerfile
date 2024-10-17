@@ -9,7 +9,7 @@ RUN pip install -r requirements.txt
 # Copy the rest of your application
 COPY . .
 
-EXPOSE 5000
+EXPOSE 8080
 
 # Set the default command to run main.py
 CMD ["python", "app2.py"]
